@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BFE2A952-7851-4EAD-BBC8-75DF9A4BE945"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "905D6A91-FA64-43CF-9600-28E93F120AC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarList/Coordinator/Coordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "dismiss()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarList/Application/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "SceneDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - ad86cc388c474046"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.window.getter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - 556759be8810d182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - 2f375c42e23a0dae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.window.modify : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - 827e62ea558ad090"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.window.modify : Swift.Optional&lt;__C.UIWindow&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - 1284e31f5e9deae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.init() -&gt; CarList.SceneDelegate"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - 556759be8810d182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - 827e62ea558ad090"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.window.modify : Swift.Optional&lt;__C.UIWindow&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "5A50E6DC-1396-41EB-9D91-BFF0C157C369 - 1284e31f5e9deae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.SceneDelegate.init() -&gt; CarList.SceneDelegate"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FBE6301-E504-4EEF-A4BF-4ECB508DD171"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarList/Application/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2FBE6301-E504-4EEF-A4BF-4ECB508DD171 - 5d5dea2aa032484a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.AppDelegate.__allocating_init() -&gt; CarList.AppDelegate"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "2FBE6301-E504-4EEF-A4BF-4ECB508DD171 - a2cbea6f50b42b7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.AppDelegate.init() -&gt; CarList.AppDelegate"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2FBE6301-E504-4EEF-A4BF-4ECB508DD171 - bd65f8dee3117331"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.AppDelegate.__deallocating_deinit"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2FBE6301-E504-4EEF-A4BF-4ECB508DD171 - 8535047ff56a3c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "2FBE6301-E504-4EEF-A4BF-4ECB508DD171 - 5d5dea2aa032484a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarList.AppDelegate.__allocating_init() -&gt; CarList.AppDelegate"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2FBE6301-E504-4EEF-A4BF-4ECB508DD171 - 8535047ff56a3c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "CarList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislavshimchenko/Documents/CarList/CarList/Application/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "229906C9-D5AE-4694-BFAB-B1BEB08972AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarList/Coordinator/Coordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "createCarController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65300B0F-3C7F-4DE0-BC9E-1D62FC6C13F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarList/View/Cars/CreateCarViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

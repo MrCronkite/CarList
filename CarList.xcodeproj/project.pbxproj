@@ -7,23 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D08102D2B3CC0CC00DD7EAA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08102C2B3CC0CC00DD7EAA /* Date.swift */; };
 		8D5228842B3ADDD40008EEBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228832B3ADDD40008EEBF /* AppDelegate.swift */; };
 		8D5228862B3ADDD40008EEBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228852B3ADDD40008EEBF /* SceneDelegate.swift */; };
-		8D5228882B3ADDD40008EEBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228872B3ADDD40008EEBF /* ViewController.swift */; };
-		8D52288B2B3ADDD40008EEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5228892B3ADDD40008EEBF /* Main.storyboard */; };
+		8D5228882B3ADDD40008EEBF /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228872B3ADDD40008EEBF /* BaseController.swift */; };
 		8D52288D2B3ADDD60008EEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D52288C2B3ADDD60008EEBF /* Assets.xcassets */; };
 		8D5228902B3ADDD60008EEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D52288E2B3ADDD60008EEBF /* LaunchScreen.storyboard */; };
+		8D52289D2B3AE24E0008EEBF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D52289C2B3AE24E0008EEBF /* UIColor.swift */; };
+		8D5228A42B3AE5BB0008EEBF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228A32B3AE5BB0008EEBF /* UIView.swift */; };
+		8D5228A72B3AE6C60008EEBF /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228A62B3AE6C60008EEBF /* R.swift */; };
+		8D5228AB2B3AEC1C0008EEBF /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228AA2B3AEC1C0008EEBF /* CarsViewController.swift */; };
+		8D5228AE2B3AEC420008EEBF /* CarCellTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228AD2B3AEC420008EEBF /* CarCellTableView.swift */; };
+		8D5228B12B3AED630008EEBF /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228B02B3AED630008EEBF /* UITableView.swift */; };
+		8D5228B32B3B06C50008EEBF /* CarsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228B22B3B06C50008EEBF /* CarsDetailsViewController.swift */; };
+		8D5228B52B3B09410008EEBF /* CreateCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228B42B3B09410008EEBF /* CreateCarViewController.swift */; };
+		8D5228B82B3B12940008EEBF /* DashedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228B72B3B12940008EEBF /* DashedCircle.swift */; };
+		8D5228BB2B3B2ACB0008EEBF /* CreateCarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228BA2B3B2ACB0008EEBF /* CreateCarPresenter.swift */; };
+		8D5228BE2B3B2AE50008EEBF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228BD2B3B2AE50008EEBF /* Car.swift */; };
+		8D5228C02B3B2BC20008EEBF /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228BF2B3B2BC20008EEBF /* Builder.swift */; };
+		8D5228C22B3B2CD50008EEBF /* CarsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228C12B3B2CD50008EEBF /* CarsPresenter.swift */; };
+		8D5228C52B3B333E0008EEBF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5228C42B3B333E0008EEBF /* Coordinator.swift */; };
+		8D5B34152B3C298E004F6AC4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8D5B34142B3C298E004F6AC4 /* Realm */; };
+		8D5B34172B3C298E004F6AC4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8D5B34162B3C298E004F6AC4 /* RealmSwift */; };
+		8D5B34192B3C2B33004F6AC4 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B34182B3C2B33004F6AC4 /* StorageManager.swift */; };
+		8D5B341B2B3C38C5004F6AC4 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B341A2B3C38C5004F6AC4 /* Array.swift */; };
+		8D5B341E2B3C59F6004F6AC4 /* DetailsCarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B341D2B3C59F6004F6AC4 /* DetailsCarPresenter.swift */; };
+		8DE76DDA2B3CC7D900664D47 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8DE76DD92B3CC7D900664D47 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D08102C2B3CC0CC00DD7EAA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		8D5228802B3ADDD40008EEBF /* CarList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5228832B3ADDD40008EEBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D5228852B3ADDD40008EEBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D5228872B3ADDD40008EEBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D52288A2B3ADDD40008EEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D5228872B3ADDD40008EEBF /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		8D52288C2B3ADDD60008EEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D52288F2B3ADDD60008EEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5228912B3ADDD60008EEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D52289C2B3AE24E0008EEBF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8D5228A32B3AE5BB0008EEBF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8D5228A62B3AE6C60008EEBF /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
+		8D5228AA2B3AEC1C0008EEBF /* CarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		8D5228AD2B3AEC420008EEBF /* CarCellTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellTableView.swift; sourceTree = "<group>"; };
+		8D5228B02B3AED630008EEBF /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		8D5228B22B3B06C50008EEBF /* CarsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsDetailsViewController.swift; sourceTree = "<group>"; };
+		8D5228B42B3B09410008EEBF /* CreateCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCarViewController.swift; sourceTree = "<group>"; };
+		8D5228B72B3B12940008EEBF /* DashedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedCircle.swift; sourceTree = "<group>"; };
+		8D5228BA2B3B2ACB0008EEBF /* CreateCarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCarPresenter.swift; sourceTree = "<group>"; };
+		8D5228BD2B3B2AE50008EEBF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		8D5228BF2B3B2BC20008EEBF /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		8D5228C12B3B2CD50008EEBF /* CarsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsPresenter.swift; sourceTree = "<group>"; };
+		8D5228C42B3B333E0008EEBF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		8D5B34182B3C2B33004F6AC4 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		8D5B341A2B3C38C5004F6AC4 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		8D5B341D2B3C59F6004F6AC4 /* DetailsCarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCarPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE76DDA2B3CC7D900664D47 /* SnapKit in Frameworks */,
+				8D5B34172B3C298E004F6AC4 /* RealmSwift in Frameworks */,
+				8D5B34152B3C298E004F6AC4 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +96,128 @@
 		8D5228822B3ADDD40008EEBF /* CarList */ = {
 			isa = PBXGroup;
 			children = (
-				8D5228832B3ADDD40008EEBF /* AppDelegate.swift */,
-				8D5228852B3ADDD40008EEBF /* SceneDelegate.swift */,
-				8D5228872B3ADDD40008EEBF /* ViewController.swift */,
-				8D5228892B3ADDD40008EEBF /* Main.storyboard */,
+				8D5228A52B3AE6AD0008EEBF /* Application */,
+				8D5228BC2B3B2AD60008EEBF /* Model */,
+				8D52289A2B3AE0FC0008EEBF /* View */,
+				8D5228B92B3B2A6D0008EEBF /* Presenter */,
+				8D5228C32B3B332F0008EEBF /* Coordinator */,
+				8D5228972B3ADE040008EEBF /* Supporting Files */,
+				8D5B341F2B3C5A23004F6AC4 /* StorageManager */,
+			);
+			path = CarList;
+			sourceTree = "<group>";
+		};
+		8D5228972B3ADE040008EEBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				8D52288C2B3ADDD60008EEBF /* Assets.xcassets */,
 				8D52288E2B3ADDD60008EEBF /* LaunchScreen.storyboard */,
 				8D5228912B3ADDD60008EEBF /* Info.plist */,
 			);
-			path = CarList;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D52289A2B3AE0FC0008EEBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228A82B3AEBE50008EEBF /* Base */,
+				8D5228A92B3AEBF00008EEBF /* Cars */,
+				8D52289B2B3AE23D0008EEBF /* Extension */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D52289B2B3AE23D0008EEBF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D52289C2B3AE24E0008EEBF /* UIColor.swift */,
+				8D5228A32B3AE5BB0008EEBF /* UIView.swift */,
+				8D5228B02B3AED630008EEBF /* UITableView.swift */,
+				8D5B341A2B3C38C5004F6AC4 /* Array.swift */,
+				8D08102C2B3CC0CC00DD7EAA /* Date.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8D5228A52B3AE6AD0008EEBF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228832B3ADDD40008EEBF /* AppDelegate.swift */,
+				8D5228852B3ADDD40008EEBF /* SceneDelegate.swift */,
+				8D5228BF2B3B2BC20008EEBF /* Builder.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8D5228A82B3AEBE50008EEBF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228A62B3AE6C60008EEBF /* R.swift */,
+				8D5228872B3ADDD40008EEBF /* BaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8D5228A92B3AEBF00008EEBF /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B341C2B3C59C6004F6AC4 /* Views */,
+				8D5228AC2B3AEC280008EEBF /* CarsCell */,
+				8D5228AA2B3AEC1C0008EEBF /* CarsViewController.swift */,
+				8D5228B22B3B06C50008EEBF /* CarsDetailsViewController.swift */,
+				8D5228B42B3B09410008EEBF /* CreateCarViewController.swift */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		8D5228AC2B3AEC280008EEBF /* CarsCell */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228AD2B3AEC420008EEBF /* CarCellTableView.swift */,
+			);
+			path = CarsCell;
+			sourceTree = "<group>";
+		};
+		8D5228B92B3B2A6D0008EEBF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228C12B3B2CD50008EEBF /* CarsPresenter.swift */,
+				8D5228BA2B3B2ACB0008EEBF /* CreateCarPresenter.swift */,
+				8D5B341D2B3C59F6004F6AC4 /* DetailsCarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8D5228BC2B3B2AD60008EEBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228BD2B3B2AE50008EEBF /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D5228C32B3B332F0008EEBF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228C42B3B333E0008EEBF /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8D5B341C2B3C59C6004F6AC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D5228B72B3B12940008EEBF /* DashedCircle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D5B341F2B3C5A23004F6AC4 /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B34182B3C2B33004F6AC4 /* StorageManager.swift */,
+			);
+			path = StorageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +236,11 @@
 			dependencies = (
 			);
 			name = CarList;
+			packageProductDependencies = (
+				8D5B34142B3C298E004F6AC4 /* Realm */,
+				8D5B34162B3C298E004F6AC4 /* RealmSwift */,
+				8DE76DD92B3CC7D900664D47 /* SnapKit */,
+			);
 			productName = CarList;
 			productReference = 8D5228802B3ADDD40008EEBF /* CarList.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +269,10 @@
 				Base,
 			);
 			mainGroup = 8D5228772B3ADDD40008EEBF;
+			packageReferences = (
+				8D5B34132B3C298D004F6AC4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				8DE76DD82B3CC7D800664D47 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 8D5228812B3ADDD40008EEBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +289,6 @@
 			files = (
 				8D5228902B3ADDD60008EEBF /* LaunchScreen.storyboard in Resources */,
 				8D52288D2B3ADDD60008EEBF /* Assets.xcassets in Resources */,
-				8D52288B2B3ADDD40008EEBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +299,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5228882B3ADDD40008EEBF /* ViewController.swift in Sources */,
+				8D5228B82B3B12940008EEBF /* DashedCircle.swift in Sources */,
+				8D5228882B3ADDD40008EEBF /* BaseController.swift in Sources */,
+				8D5228A72B3AE6C60008EEBF /* R.swift in Sources */,
+				8D5B34192B3C2B33004F6AC4 /* StorageManager.swift in Sources */,
 				8D5228842B3ADDD40008EEBF /* AppDelegate.swift in Sources */,
 				8D5228862B3ADDD40008EEBF /* SceneDelegate.swift in Sources */,
+				8D5228A42B3AE5BB0008EEBF /* UIView.swift in Sources */,
+				8D5228B12B3AED630008EEBF /* UITableView.swift in Sources */,
+				8D5B341E2B3C59F6004F6AC4 /* DetailsCarPresenter.swift in Sources */,
+				8D5228BB2B3B2ACB0008EEBF /* CreateCarPresenter.swift in Sources */,
+				8D5B341B2B3C38C5004F6AC4 /* Array.swift in Sources */,
+				8D52289D2B3AE24E0008EEBF /* UIColor.swift in Sources */,
+				8D5228AE2B3AEC420008EEBF /* CarCellTableView.swift in Sources */,
+				8D5228B32B3B06C50008EEBF /* CarsDetailsViewController.swift in Sources */,
+				8D5228B52B3B09410008EEBF /* CreateCarViewController.swift in Sources */,
+				8D5228BE2B3B2AE50008EEBF /* Car.swift in Sources */,
+				8D08102D2B3CC0CC00DD7EAA /* Date.swift in Sources */,
+				8D5228AB2B3AEC1C0008EEBF /* CarsViewController.swift in Sources */,
+				8D5228C52B3B333E0008EEBF /* Coordinator.swift in Sources */,
+				8D5228C02B3B2BC20008EEBF /* Builder.swift in Sources */,
+				8D5228C22B3B2CD50008EEBF /* CarsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D5228892B3ADDD40008EEBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D52288A2B3ADDD40008EEBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D52288E2B3ADDD60008EEBF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,12 +465,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9JPJ7C4PAL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarList/Info.plist;
+				INFOPLIST_FILE = "CarList/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +478,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vlad.org.CarList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +496,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9JPJ7C4PAL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarList/Info.plist;
+				INFOPLIST_FILE = "CarList/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +509,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vlad.org.CarList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +540,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D5B34132B3C298D004F6AC4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8DE76DD82B3CC7D800664D47 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D5B34142B3C298E004F6AC4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D5B34132B3C298D004F6AC4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		8D5B34162B3C298E004F6AC4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D5B34132B3C298D004F6AC4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		8DE76DD92B3CC7D900664D47 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DE76DD82B3CC7D800664D47 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D5228782B3ADDD40008EEBF /* Project object */;
 }
